@@ -110,6 +110,8 @@ Este Challenger se detalla en código de desarrollo con JavaScript para encripta
 
 <img src="./assets/Reset pagina.jpg" width="800" alt="reset">
 
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
+
 ## Modo Responsivo
 
 ### Desktop
@@ -125,6 +127,7 @@ Este Challenger se detalla en código de desarrollo con JavaScript para encripta
 <p align="center"><img src="./assets/Modo Celular.jpg" width="300" alt="Modo Celular">
 
 <p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
+
 ## Tecnologías utilizadas💡
 
 - ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-blue?logo=VSCode)
