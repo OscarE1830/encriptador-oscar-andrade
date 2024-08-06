@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>Encriptador</title>
+    <!-- <link rel="stylesheet" href="reset2.css"> -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="header">
+                    <img class="logo" src="./assets/Logo.png">
+            </div>  
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="left" id="left">
+                <textarea class="inputtextarea" id="textoInput" cols="30" rows="10" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <div id="overlay">
+                <img id="imagen-inicial" src="./assets/Logo-titulo-readme.png" alt="Imagen Inicial">
+                </div>
+                <div id="loader" hidden></div>
+                <div class="content_botones">
+                    <span class="info"><img src="./assets/Group.png" alt="advertencia">
+                        Solo letras minúsculas y sin acentos
+                        <img class="recargar" id="recargar" src="./assets/reset.gif" onclick="Recargar()" alt="icono de recarga">
+                    </span>
+                    <div class="botones">
+                        <button id="btn__encriptar" class="btn__encriptar">Encriptar</button>
+                        <button id="btn__desencriptar" class="btn__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right" id="rigth">
+                <img id="muneco" class="muneco" src="./assets/Muñeco.png" alt="Ningún mensaje fue encontrado">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado" readonly="true"></textarea>
+                <p class="info" id="textoInfo">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="btn__copiar btn_ocultar" id="btn__copiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer ">
+        <p class="creador"><strong>&copy;2024 - Desarrollado por</strong> 
+            <a href="https://app.aluracursos.com/user/oscareduardo1830" target="_blank">
+                Oscar Andrade - Alura Latam
+            </a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
